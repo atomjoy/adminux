@@ -77,6 +77,10 @@ input:focus {
 
 .wp-pwd button {
     margin-top: 10px !important;
+    color: var(--w1) !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 #language-switcher  input {
