@@ -3,6 +3,7 @@
 :root {
     --w1: #2244ff !important;
     --w2: #ff2255 !important;
+    --wradius: 10px;
     --wlogo: url('https://cdn-icons-png.flaticon.com/512/59/59137.png') !important;
 }
 
@@ -23,15 +24,17 @@ body {
 #login-message {
     background: #fff !important;
     font-size: 15px !important;
-    border-left: 3px solid var(--w1) !important;
     box-shadow: 0px 5px 10px #1111;
+    border-left: 3px solid var(--w1) !important;
+    border-radius: var(--wradius) !important;
 }
 
 #login_error {
     background: #fff !important;
     font-size: 15px !important;
-    border-left: 3px solid var(--w2) !important;
     box-shadow: 0px 5px 10px #1111;
+    border-left: 3px solid var(--w2) !important;
+    border-radius: var(--wradius) !important;
 }
 
 #login {
@@ -41,10 +44,10 @@ body {
 
 #loginform {
     background: #fff !important;
-    border-radius: 10px !important;
     border: 1px solid #f4f4f4 !important;
     box-shadow: 0px 10px 20px #1111 !important;
     padding: 30px !important;
+    border-radius: var(--wradius) !important;
 }
 
 .wp-core-ui {
@@ -55,20 +58,20 @@ body {
     font-size: 14px !important;
     font-weight: 600 !important;
     color: #fff !important;
-    background: var(--w1) !important;
-    border-radius: 10px !important;
     padding: 5px 25px !important;
     border: none !important;
+    background: var(--w1) !important;
+    border-radius: var(--wradius) !important;
 }
 
 input {
     padding: 15px 20px !important;
     margin-top: 5px !important;
     font-size: 15px !important;
-    border-radius: 10px !important;
     border: 1px solid #ddd !important;
     transition: all .6s !important;
     font-weight: 600 !important;
+    border-radius: var(--wradius) !important;
 }
 
 input:focus {
