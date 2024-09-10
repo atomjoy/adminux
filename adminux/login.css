@@ -2,6 +2,7 @@
 
 :root {
     --w1: #2244ff !important;
+    --wlogo: url('https://cdn-icons-png.flaticon.com/512/59/59137.png') !important;
 }
 
 body {
@@ -9,8 +10,8 @@ body {
 }
 
 .login h1 a{
+    background-image: var(--wlogo) !important;
     border-radius: 500px !important;
-    background-image: url('https://cdn-icons-png.flaticon.com/512/59/59137.png') !important;
 }
 
 #login-message {
