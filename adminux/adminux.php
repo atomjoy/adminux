@@ -3,7 +3,7 @@
 /*
 Plugin Name: Adminux
 Plugin URI: https://github.com/atomjoy/adminux
-Description: Wordpress login page theme, minimal custom style for Wp login page.
+Description: Wordpress login page theme with custom logo, minimal custom style for Wp login page.
 Author: Atomjoy
 Version: 1.0
 Author URI: https://github.com/atomjoy

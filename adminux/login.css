@@ -2,6 +2,7 @@
 
 :root {
     --w1: #2244ff !important;
+    --w2: #ff2255 !important;
     --wlogo: url('https://cdn-icons-png.flaticon.com/512/59/59137.png') !important;
 }
 
@@ -23,6 +24,13 @@ body {
     background: #fff !important;
     font-size: 15px !important;
     border-left: 3px solid var(--w1) !important;
+    box-shadow: 0px 5px 10px #1111;
+}
+
+#login_error {
+    background: #fff !important;
+    font-size: 15px !important;
+    border-left: 3px solid var(--w2) !important;
     box-shadow: 0px 5px 10px #1111;
 }
 
