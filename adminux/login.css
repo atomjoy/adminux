@@ -5,8 +5,13 @@
     --wlogo: url('https://cdn-icons-png.flaticon.com/512/59/59137.png') !important;
 }
 
+html {    
+    scrollbar-color: var(--w1) #ddd !important;
+    scrollbar-width: thin !important;
+}
+
 body {
-    font-family: Poppins, monospace !important;
+    font-family: Poppins, monospace !important;   
 }
 
 .login h1 a{
@@ -100,4 +105,8 @@ input:focus {
     margin-top: 0px !important;
     border-radius: 3px !important;
     color: #3d3d3d !important;
+}
+
+#language-switcher {
+    margin-bottom: 150px !important;
 }
