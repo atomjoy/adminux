@@ -3,7 +3,7 @@ Wordpress login page theme with custom logo, minimal custom style for Wp login p
 
 ## Install
 
-Copy the adminux directory to the plugins directory on your Wordpress site (And enable plugin).
+Install adminux.zip plugin or copy the adminux directory to the plugins directory on your Wordpress site.
 
 ## Wordpress Login Page Theme
 
